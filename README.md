@@ -1,6 +1,7 @@
 # Asset-tracker
 
 ※해당 확장은 국내 사이트 '깡통 사이트'에서 만들어지고 배포되었습니다.
+
 ※해당 확장은 '깡통 사이트'에서 배포된 character-assets 확장을 필수적으로 필요로 합니다(깃허브 링크:https://github.com/tincansimagine/character-assets).
 
 📊 SillyTavern Asset Tracker
