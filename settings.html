@@ -1,0 +1,54 @@
+<div id="character_assets_settings">
+    <div class="inline-drawer">
+        <div class="inline-drawer-toggle inline-drawer-header">
+            <b>애셋 트래커 (Asset Tracker)</b>
+            <div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
+        </div>
+        
+        <div class="inline-drawer-content">
+            
+            <div style="padding: 10px 5px; border-bottom: 1px solid var(--SmartThemeBorderColor);">
+                <div style="margin-bottom: 10px;">
+                    <label class="checkbox_label" style="display: flex; align-items: center; cursor: pointer;">
+                        <input id="tracker_toggle_enable" type="checkbox" checked>
+                        <span style="margin-left: 10px; font-weight: bold;">이 채팅방에서 추적 활성화</span>
+                    </label>
+                </div>
+                <div>
+                    <label class="checkbox_label" style="display: flex; align-items: center; cursor: pointer;">
+                        <input id="tracker_toast_enable" type="checkbox" checked>
+                        <span style="margin-left: 10px;">🔔 새 애셋 발견 시 알림</span>
+                    </label>
+                </div>
+            </div>
+
+            <div style="padding: 10px 5px; border-bottom: 1px solid var(--SmartThemeBorderColor);">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
+                    <label style="font-size: 0.9em; color: gray;">
+                        🎉 100% 달성 축하 메시지
+                    </label>
+                    <label class="checkbox_label" style="font-size: 0.8em; cursor: pointer;">
+                        <input id="tracker_msg_reveal" type="checkbox"> 👁️ 확인/수정
+                    </label>
+                </div>
+
+                <div id="tracker_msg_status" style="font-size: 0.9em; color: var(--SmartThemeQuoteColor); margin-bottom: 5px; display: none;">
+                    🔒 히든 메시지가 감지되었습니다. (내용 숨김)
+                </div>
+
+                <textarea id="tracker_custom_msg_input" class="text_pole" rows="2" placeholder="직접 입력하거나, 카드에 숨겨진 코드를 자동으로 불러옵니다." style="width: 100%; resize: vertical; display: none;"></textarea>
+            </div>
+
+            <div id="tracker_assets_list" class="asset-list-container" style="display: flex; flex-direction: column; gap: 5px; padding: 10px; min-height: 50px;">
+                <div style="text-align: center; color: gray; padding: 20px;">
+                    캐릭터를 선택해주세요.
+                </div>
+            </div>
+
+            <div style="margin-top: 15px; border-top: 1px solid var(--SmartThemeBorderColor); padding-top: 10px;">
+                <div id="tracker_reset_btn" class="menu_button danger_button" style="width: 100%; text-align: center; justify-content: center;">
+                    <i class="fa-solid fa-trash-can"></i> 진행도 초기화 (Reset)
+                </div>
+            </div>
+
+        </div> </div> </div>
